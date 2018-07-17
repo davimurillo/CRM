@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+	<link href="../lib/fonts/css/font-awesome.min.css" rel="stylesheet">
+	
+	</head>
+<body>
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    
+    <li role="presentation" class="active"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Usuarios</a></li>
+    <li role="presentation" ><a href="#grupos" aria-controls="grupos" role="tab" data-toggle="tab">Grupos de Usuarios</a></li>
+    <li role="presentation"><a href="#perfiles" aria-controls="perfiles" role="tab" data-toggle="tab">Perfiles</a></li>
+  
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content" >
+    
+    <div role="tabpanel" class="tab-pane fade in active" id="profile"><iframe id="contenedor_data_1" src="cfg_cuentas.php" width="100%" allowtransparency="1" frameborder="0" style="height:380px" ></iframe></div>
+    <div role="tabpanel" class="tab-pane fade" id="grupos"><iframe id="contenedor_data_2" src="cfg_grupos.php" width="100%" allowtransparency="1" frameborder="0" style="height:380px" ></iframe></div>
+	
+	<div role="tabpanel" class="tab-pane fade" id="perfiles"><iframe id="contenedor_data_3" src="cfg_perfil.php" width="100%" allowtransparency="1" frameborder="0" style="height:380px" ></iframe></div>
+   
+  </div>
+
+</div>
+
+<script src="../lib/js/jquery.min.js"></script>
+<script src="../lib/js/bootstrap.min.js" ></script>
+<script>
+function alertSize() {
+  var myWidth = 0, myHeight = 0;
+  if( typeof( window.innerWidth ) == 'number' ) {
+    //Non-IE
+    myWidth = window.innerWidth;
+    myHeight = window.innerHeight;
+  } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+    //IE 6+ in 'standards compliant mode'
+    myWidth = document.documentElement.clientWidth;
+    myHeight = document.documentElement.clientHeight;
+  } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+    //IE 4 compatible
+    myWidth = document.body.clientWidth;
+    myHeight = document.body.clientHeight;
+  }
+ // window.alert( 'Width = ' + myWidth );
+//  window.alert( 'Height = ' + myHeight );
+  document.getElementById('contenedor_data_1').style.height=(myHeight-180) + "px";
+   document.getElementById('contenedor_data_2').style.height=(myHeight-180) + "px";
+   document.getElementById('contenedor_data_3').style.height=(myHeight-180) + "px";
+  
+  
+  
+}
+
+alertSize();
+
+function Resize()
+{
+alertSize();
+}
+
+window.onresize=Resize;
+</script>
+<body>
+<html>

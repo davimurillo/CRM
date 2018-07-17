@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+	<link href="../lib/fonts/css/font-awesome.min.css" rel="stylesheet">
+	
+	</head>
+<body>
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#parametros" aria-controls="parametros" role="tab" data-toggle="tab">Parámetros Generales</a>
+	</li>
+    <li role="presentation" ><a href="#condicion" aria-controls="condicion" role="tab" data-toggle="tab">Tipo de Moneda</a>
+	</li>
+    <li role="presentation" ><a href="#tipo" aria-controls="tipo" role="tab" data-toggle="tab">Tipo de Dirección</a>
+	</li>
+	<li role="presentation" ><a href="#estatus" aria-controls="estatus" role="tab" data-toggle="tab">Tipo de Teléfono</a>
+	</li>
+	<li role="presentation" ><a href="#importancia" aria-controls="importancia" role="tab" data-toggle="tab">Tipo de Importancia</a>
+	</li>
+	<li role="presentation" ><a href="#calendario" aria-controls="calendario" role="tab" data-toggle="tab">Calendario</a>
+	</li>
+   </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content" >
+    
+    <div role="tabpanel" class="tab-pane fade in active" id="parametros"><iframe id="contenedor_data" src="cfg_parametros.php" width="100%" allowtransparency="1" frameborder="0" style="height:380px" ></iframe></div>
+	
+	<div role="tabpanel" class="tab-pane fade in" id="condicion"><iframe id="contenedor_data" src="cfg_tabla_tipo_moneda.php" width="100%" allowtransparency="1" frameborder="0" style="height:380px" ></iframe></div>
+	
+	<div role="tabpanel" class="tab-pane fade" id="tipo"><iframe id="contenedor_data" src="cfg_tabla_tipo_direccion.php" width="100%" allowtransparency="1" frameborder="0" style="height:380px" ></iframe></div>
+    
+	
+	<div role="tabpanel" class="tab-pane fade" id="estatus"><iframe id="contenedor_data" src="cfg_tabla_tipo_telefono.php" width="100%" allowtransparency="1" frameborder="0" style="height:380px" ></iframe></div>
+	
+	<div role="tabpanel" class="tab-pane fade" id="importancia"><iframe id="contenedor_data" src="cfg_tabla_tipo_importancia.php" width="100%" allowtransparency="1" frameborder="0" style="height:380px" ></iframe></div>
+	
+	<div role="tabpanel" class="tab-pane fade" id="calendario"><iframe id="contenedor_data" src="cfg_tabla_calendario.php" width="100%" allowtransparency="1" frameborder="0" style="height:380px" ></iframe></div>
+   
+  </div>
+
+</div>
+
+<script src="../lib/js/jquery.min.js"></script>
+<script src="../lib/js/bootstrap.min.js" ></script>
+
+<body>
+<html>
