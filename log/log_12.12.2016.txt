@@ -1,0 +1,270 @@
+Fecha Acceso:December 12, 2016, 9:29 pm
+Attempt: Failed
+User: davimurillo@gmail.com
+-------------------------
+PHP_SELF => /modulos/login.php
+argv
+argc
+GATEWAY_INTERFACE => CGI/1.1
+SERVER_ADDR => 127.0.0.1
+SERVER_NAME => www.crm.com
+SERVER_SOFTWARE => Apache/2.4.6 (Win32) PHP/5.4.17
+SERVER_PROTOCOL => HTTP/1.1
+REQUEST_METHOD => POST
+REQUEST_TIME => 1481594364
+REQUEST_TIME_FLOAT => 1481594364.195
+QUERY_STRING => 
+DOCUMENT_ROOT => D:/2- TRABAJO/USBWebserver v8.6/root/CRM
+HTTP_ACCEPT => text/html, */*; q=0.01
+HTTP_ACCEPT_CHARSET
+HTTP_ACCEPT_ENCODING => gzip, deflate
+HTTP_ACCEPT_LANGUAGE => es-ES,es;q=0.8
+HTTP_CONNECTION => keep-alive
+HTTP_HOST => www.crm.com
+HTTP_REFERER => http://www.crm.com/
+HTTP_USER_AGENT => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+HTTPS
+REMOTE_ADDR => 127.0.0.1
+REMOTE_HOST
+REMOTE_PORT => 53705
+REMOTE_USER
+REDIRECT_REMOTE_USER
+SCRIPT_FILENAME => D:/2- TRABAJO/USBWebserver v8.6/root/CRM/modulos/login.php
+SERVER_ADMIN => webmaster@www.crm.com
+SERVER_PORT => 80
+SERVER_SIGNATURE => 
+PATH_TRANSLATED
+SCRIPT_NAME => /modulos/login.php
+REQUEST_URI => /modulos/login.php
+PHP_AUTH_DIGEST
+PHP_AUTH_USER
+PHP_AUTH_PW
+AUTH_TYPE
+PATH_INFO
+ORIG_PATH_INFO
+
+Fecha Acceso:December 12, 2016, 9:29 pm
+Attempt: Failed
+User: davimurillo@gmail.com
+-------------------------
+PHP_SELF => /modulos/login.php
+argv
+argc
+GATEWAY_INTERFACE => CGI/1.1
+SERVER_ADDR => 127.0.0.1
+SERVER_NAME => www.crm.com
+SERVER_SOFTWARE => Apache/2.4.6 (Win32) PHP/5.4.17
+SERVER_PROTOCOL => HTTP/1.1
+REQUEST_METHOD => POST
+REQUEST_TIME => 1481594364
+REQUEST_TIME_FLOAT => 1481594364.182
+QUERY_STRING => 
+DOCUMENT_ROOT => D:/2- TRABAJO/USBWebserver v8.6/root/CRM
+HTTP_ACCEPT => text/html, */*; q=0.01
+HTTP_ACCEPT_CHARSET
+HTTP_ACCEPT_ENCODING => gzip, deflate
+HTTP_ACCEPT_LANGUAGE => es-ES,es;q=0.8
+HTTP_CONNECTION => keep-alive
+HTTP_HOST => www.crm.com
+HTTP_REFERER => http://www.crm.com/
+HTTP_USER_AGENT => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+HTTPS
+REMOTE_ADDR => 127.0.0.1
+REMOTE_HOST
+REMOTE_PORT => 53708
+REMOTE_USER
+REDIRECT_REMOTE_USER
+SCRIPT_FILENAME => D:/2- TRABAJO/USBWebserver v8.6/root/CRM/modulos/login.php
+SERVER_ADMIN => webmaster@www.crm.com
+SERVER_PORT => 80
+SERVER_SIGNATURE => 
+PATH_TRANSLATED
+SCRIPT_NAME => /modulos/login.php
+REQUEST_URI => /modulos/login.php
+PHP_AUTH_DIGEST
+PHP_AUTH_USER
+PHP_AUTH_PW
+AUTH_TYPE
+PATH_INFO
+ORIG_PATH_INFO
+
+Fecha Acceso:December 12, 2016, 9:29 pm
+Attempt: Failed
+User: davimurillo@gmail.com
+-------------------------
+PHP_SELF => /modulos/login.php
+argv
+argc
+GATEWAY_INTERFACE => CGI/1.1
+SERVER_ADDR => 127.0.0.1
+SERVER_NAME => www.crm.com
+SERVER_SOFTWARE => Apache/2.4.6 (Win32) PHP/5.4.17
+SERVER_PROTOCOL => HTTP/1.1
+REQUEST_METHOD => POST
+REQUEST_TIME => 1481594369
+REQUEST_TIME_FLOAT => 1481594369.314
+QUERY_STRING => 
+DOCUMENT_ROOT => D:/2- TRABAJO/USBWebserver v8.6/root/CRM
+HTTP_ACCEPT => text/html, */*; q=0.01
+HTTP_ACCEPT_CHARSET
+HTTP_ACCEPT_ENCODING => gzip, deflate
+HTTP_ACCEPT_LANGUAGE => es-ES,es;q=0.8
+HTTP_CONNECTION => keep-alive
+HTTP_HOST => www.crm.com
+HTTP_REFERER => http://www.crm.com/
+HTTP_USER_AGENT => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+HTTPS
+REMOTE_ADDR => 127.0.0.1
+REMOTE_HOST
+REMOTE_PORT => 53743
+REMOTE_USER
+REDIRECT_REMOTE_USER
+SCRIPT_FILENAME => D:/2- TRABAJO/USBWebserver v8.6/root/CRM/modulos/login.php
+SERVER_ADMIN => webmaster@www.crm.com
+SERVER_PORT => 80
+SERVER_SIGNATURE => 
+PATH_TRANSLATED
+SCRIPT_NAME => /modulos/login.php
+REQUEST_URI => /modulos/login.php
+PHP_AUTH_DIGEST
+PHP_AUTH_USER
+PHP_AUTH_PW
+AUTH_TYPE
+PATH_INFO
+ORIG_PATH_INFO
+
+Fecha Acceso:December 12, 2016, 9:29 pm
+Attempt: Failed
+User: davimurillo@gmail.com
+-------------------------
+PHP_SELF => /modulos/login.php
+argv
+argc
+GATEWAY_INTERFACE => CGI/1.1
+SERVER_ADDR => 127.0.0.1
+SERVER_NAME => www.crm.com
+SERVER_SOFTWARE => Apache/2.4.6 (Win32) PHP/5.4.17
+SERVER_PROTOCOL => HTTP/1.1
+REQUEST_METHOD => POST
+REQUEST_TIME => 1481594369
+REQUEST_TIME_FLOAT => 1481594369.311
+QUERY_STRING => 
+DOCUMENT_ROOT => D:/2- TRABAJO/USBWebserver v8.6/root/CRM
+HTTP_ACCEPT => text/html, */*; q=0.01
+HTTP_ACCEPT_CHARSET
+HTTP_ACCEPT_ENCODING => gzip, deflate
+HTTP_ACCEPT_LANGUAGE => es-ES,es;q=0.8
+HTTP_CONNECTION => keep-alive
+HTTP_HOST => www.crm.com
+HTTP_REFERER => http://www.crm.com/
+HTTP_USER_AGENT => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+HTTPS
+REMOTE_ADDR => 127.0.0.1
+REMOTE_HOST
+REMOTE_PORT => 53742
+REMOTE_USER
+REDIRECT_REMOTE_USER
+SCRIPT_FILENAME => D:/2- TRABAJO/USBWebserver v8.6/root/CRM/modulos/login.php
+SERVER_ADMIN => webmaster@www.crm.com
+SERVER_PORT => 80
+SERVER_SIGNATURE => 
+PATH_TRANSLATED
+SCRIPT_NAME => /modulos/login.php
+REQUEST_URI => /modulos/login.php
+PHP_AUTH_DIGEST
+PHP_AUTH_USER
+PHP_AUTH_PW
+AUTH_TYPE
+PATH_INFO
+ORIG_PATH_INFO
+
+Fecha Acceso:December 12, 2016, 9:29 pm
+Attempt: Success
+User: davimurillo@gmail.com
+-------------------------
+PHP_SELF => /modulos/login.php
+argv
+argc
+GATEWAY_INTERFACE => CGI/1.1
+SERVER_ADDR => 127.0.0.1
+SERVER_NAME => www.crm.com
+SERVER_SOFTWARE => Apache/2.4.6 (Win32) PHP/5.4.17
+SERVER_PROTOCOL => HTTP/1.1
+REQUEST_METHOD => POST
+REQUEST_TIME => 1481594374
+REQUEST_TIME_FLOAT => 1481594374.664
+QUERY_STRING => 
+DOCUMENT_ROOT => D:/2- TRABAJO/USBWebserver v8.6/root/CRM
+HTTP_ACCEPT => text/html, */*; q=0.01
+HTTP_ACCEPT_CHARSET
+HTTP_ACCEPT_ENCODING => gzip, deflate
+HTTP_ACCEPT_LANGUAGE => es-ES,es;q=0.8
+HTTP_CONNECTION => keep-alive
+HTTP_HOST => www.crm.com
+HTTP_REFERER => http://www.crm.com/
+HTTP_USER_AGENT => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+HTTPS
+REMOTE_ADDR => 127.0.0.1
+REMOTE_HOST
+REMOTE_PORT => 53742
+REMOTE_USER
+REDIRECT_REMOTE_USER
+SCRIPT_FILENAME => D:/2- TRABAJO/USBWebserver v8.6/root/CRM/modulos/login.php
+SERVER_ADMIN => webmaster@www.crm.com
+SERVER_PORT => 80
+SERVER_SIGNATURE => 
+PATH_TRANSLATED
+SCRIPT_NAME => /modulos/login.php
+REQUEST_URI => /modulos/login.php
+PHP_AUTH_DIGEST
+PHP_AUTH_USER
+PHP_AUTH_PW
+AUTH_TYPE
+PATH_INFO
+ORIG_PATH_INFO
+
+Fecha Acceso:December 12, 2016, 9:29 pm
+Attempt: Success
+User: davimurillo@gmail.com
+-------------------------
+PHP_SELF => /modulos/login.php
+argv
+argc
+GATEWAY_INTERFACE => CGI/1.1
+SERVER_ADDR => 127.0.0.1
+SERVER_NAME => www.crm.com
+SERVER_SOFTWARE => Apache/2.4.6 (Win32) PHP/5.4.17
+SERVER_PROTOCOL => HTTP/1.1
+REQUEST_METHOD => POST
+REQUEST_TIME => 1481594374
+REQUEST_TIME_FLOAT => 1481594374.678
+QUERY_STRING => 
+DOCUMENT_ROOT => D:/2- TRABAJO/USBWebserver v8.6/root/CRM
+HTTP_ACCEPT => text/html, */*; q=0.01
+HTTP_ACCEPT_CHARSET
+HTTP_ACCEPT_ENCODING => gzip, deflate
+HTTP_ACCEPT_LANGUAGE => es-ES,es;q=0.8
+HTTP_CONNECTION => keep-alive
+HTTP_HOST => www.crm.com
+HTTP_REFERER => http://www.crm.com/
+HTTP_USER_AGENT => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+HTTPS
+REMOTE_ADDR => 127.0.0.1
+REMOTE_HOST
+REMOTE_PORT => 53743
+REMOTE_USER
+REDIRECT_REMOTE_USER
+SCRIPT_FILENAME => D:/2- TRABAJO/USBWebserver v8.6/root/CRM/modulos/login.php
+SERVER_ADMIN => webmaster@www.crm.com
+SERVER_PORT => 80
+SERVER_SIGNATURE => 
+PATH_TRANSLATED
+SCRIPT_NAME => /modulos/login.php
+REQUEST_URI => /modulos/login.php
+PHP_AUTH_DIGEST
+PHP_AUTH_USER
+PHP_AUTH_PW
+AUTH_TYPE
+PATH_INFO
+ORIG_PATH_INFO
+

@@ -1,0 +1,63 @@
+2017-06-10 02:51:00 ERROR  : ERROR:  error de sintaxis en o cerca de «from»
+LINE 10:  from vie_seguimiento_control_oportunidad 
+          ^
+2017-06-10 02:51:09 ERROR  : ERROR:  falta una entrada para la tabla «tbl_oportunidad» en la cláusula FROM
+LINE 2:     tbl_oportunidad.id_oportunidad,
+            ^
+2017-06-10 02:51:58 ERROR  : ERROR:  falta una entrada para la tabla «tbl_oportunidad» en la cláusula FROM
+LINE 12:     EXTRACT(YEAR FROM  tbl_oportunidad.fe_actuali)= EXTRACT(...
+                                ^
+2017-06-10 02:52:07 ERROR  : ERROR:  falta una entrada para la tabla «b» en la cláusula FROM
+LINE 12: ... fe_actuali)= EXTRACT(YEAR FROM fe_actuali)  AND  b.id_statu...
+                                                              ^
+2017-06-10 02:52:12 ERROR  : ERROR:  no existe la columna «id_status»
+LINE 12: ... fe_actuali)= EXTRACT(YEAR FROM fe_actuali)  AND  id_status<...
+                                                              ^
+2017-06-10 04:05:53 ERROR  : ERROR:  no existe la columna «nu_tiemponu_tiempo_avance»
+LINE 1: ...d) FROM vie_seguimiento_control_oportunidad WHERE nu_tiempon...
+                                                             ^
+2017-06-10 04:28:13 ERROR  : ERROR:  error de sintaxis en o cerca de «48»
+LINE 1: ...dad WHERE id_usuario=a.id_usuario and NOT EXISTS (48,151,47)...
+                                                             ^
+2017-06-10 04:28:21 ERROR  : ERROR:  error de sintaxis en o cerca de «'48,151,47'»
+LINE 1: ...dad WHERE id_usuario=a.id_usuario and NOT EXISTS ('48,151,47...
+                                                             ^
+2017-06-10 04:28:35 ERROR  : ERROR:  error de sintaxis en o cerca de «'48'»
+LINE 1: ...dad WHERE id_usuario=a.id_usuario and NOT EXISTS ('48','151'...
+                                                             ^
+2017-06-10 04:34:37 ERROR  : ERROR:  la columna «a.id_oportunidad» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 1: SELECT tx_nombre_apellido, id_oportunidad,  (SELECT count(id...
+                                   ^
+2017-06-10 04:56:16 ERROR  : ERROR:  error de sintaxis en o cerca de «tx_status_opor»
+LINE 1: tx_status_opor NOT IN ('Anulada','Cerrada')
+        ^
+2017-06-10 05:18:59 ERROR  : ERROR:  error de sintaxis en o cerca de «SELECT»
+LINE 2: (SELECT COUNT(id_oportunidad) FROM vie_seguimiento_control_o...
+         ^
+2017-06-10 05:19:31 ERROR  : ERROR:  error de sintaxis en o cerca de «)»
+LINE 2: ... and tx_status_opor<>'Anulada' or nu_tiempo=0 )   ) AS a_des...
+                                                             ^
+2017-06-10 05:20:58 ERROR  : ERROR:  error de sintaxis en o cerca de «AS»
+LINE 2: ...a' or (nu_tiempo=0 and nu_tiempo_avance IS NULL ) AS a_desti...
+                                                             ^
+2017-06-10 05:23:45 ERROR  : ERROR:  la columna «vie_seguimiento_control_oportunidad.nu_tiempo_avance» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 2: (SELECT CASE WHEN nu_tiempo_avance IS NULL THEN 1 ELSE COUNT...
+                          ^
+2017-06-10 05:25:37 ERROR  : ERROR:  la columna «vie_seguimiento_control_oportunidad.nu_tiempo» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 2: ...T CASE WHEN nu_tiempo_avance = NULL THEN '1' WHEN nu_tiempo>...
+                                                             ^
+2017-06-10 05:26:09 ERROR  : ERROR:  error de sintaxis en o cerca de «THEN»
+LINE 2: ...e = NULL THEN '1' ELSE nu_tiempo>nu_tiempo_avance THEN COUNT...
+                                                             ^
+2017-06-10 05:26:22 ERROR  : ERROR:  error de sintaxis en o cerca de «COUNT»
+LINE 2: ... = NULL THEN '1' ELSE nu_tiempo>nu_tiempo_avance  COUNT(id_o...
+                                                             ^
+2017-06-10 05:26:41 ERROR  : ERROR:  error de sintaxis en o cerca de «WHWN»
+LINE 2: ...SELECT CASE WHEN nu_tiempo_avance = NULL THEN '1' WHWN nu_ti...
+                                                             ^
+2017-06-10 05:26:46 ERROR  : ERROR:  la columna «vie_seguimiento_control_oportunidad.nu_tiempo» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 2: ...T CASE WHEN nu_tiempo_avance = NULL THEN '1' WHEN nu_tiempo>...
+                                                             ^
+2017-06-10 05:29:51 ERROR  : ERROR:  error de sintaxis en o cerca de «FROM»
+LINE 4:  FROM vie_seguimiento_control_oportunidad a WHERE tx_status_...
+         ^

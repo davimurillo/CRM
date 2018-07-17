@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../lib/css/bootstrap.min.css" >
+	<link href="../lib/fonts/css/font-awesome.min.css" rel="stylesheet">
+	
+	</head>
+<body>
+<div >
+
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Empresa</a></li>
+    <li role="presentation"><a href="#servicios" aria-controls="servicios" role="tab" data-toggle="tab">Servicio Comercial</a></li>
+  
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Actividades o Tareas </a></li>
+	 <li role="presentation"><a href="#flujo" aria-controls="flujo" role="tab" data-toggle="tab">Flujo de Actividades o Tareas </a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content" >
+    <div role="tabpanel" class="tab-pane fade in active" id="home"><iframe id="contenedor_data_empresa" src="cfg_configuracion_general.php" width="100%" allowtransparency="1" frameborder="0"   ></iframe></div>
+    <div role="tabpanel" class="tab-pane fade" id="servicios"><iframe id="contenedor_data_servicios" src="cfg_tabla_servicio.php" width="100%" allowtransparency="1" frameborder="0"  ></iframe></div>
+    
+    <div role="tabpanel" class="tab-pane fade" id="settings"><iframe id="contenedor_data_actividad" src="cfg_tarea_actividad.php" width="100%" allowtransparency="1" frameborder="0"  ></iframe></div>
+	 <div role="tabpanel" class="tab-pane fade" id="flujo"><iframe id="contenedor_data_actividad_flujo" src="cfg_tarea_actividad_flujo.php" width="100%" allowtransparency="1" frameborder="0"  ></iframe></div>
+  </div>
+
+</div>
+
+<script src="../lib/js/jquery.min.js"></script>
+<script src="../lib/js/bootstrap.min.js" ></script>
+<script>
+ //reconfigura el tamaño de la pantalla
+		function alertSize() {
+		  var myWidth = 0, myHeight = 0;
+		  if( typeof( window.innerWidth ) == 'number' ) {
+			//Non-IE
+			myWidth = window.innerWidth;
+			myHeight = window.innerHeight;
+		  } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+			//IE 6+ in 'standards compliant mode'
+			myWidth = document.documentElement.clientWidth;
+			myHeight = document.documentElement.clientHeight;
+		  } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+			//IE 4 compatible
+			myWidth = document.body.clientWidth;
+			myHeight = document.body.clientHeight;
+		  }
+		 // window.alert( 'Width = ' + myWidth );
+		//  window.alert( 'Height = ' + myHeight );
+		  document.getElementById('contenedor_data_empresa').style.height=(myHeight-220) + "px"; document.getElementById('contenedor_data_servicios').style.height=(myHeight-220) + "px"; 
+		  document.getElementById('contenedor_data_actividad').style.height=(myHeight-220) + "px"; 
+		  document.getElementById('contenedor_data_actividad_flujo').style.height=(myHeight-220) + "px";
+		  
+		  
+		  
+		}
+
+		alertSize();
+
+		function Resize()
+		{
+		alertSize();
+		}
+
+		window.onresize=Resize;
+</script>
+<body>
+<html>

@@ -1,0 +1,90 @@
+Fecha Acceso:August 14, 2016, 5:54 pm
+Attempt: Success
+User: davimurillo@gmail.com
+-------------------------
+PHP_SELF => /CRM/modulos/login.php
+argv
+argc
+GATEWAY_INTERFACE => CGI/1.1
+SERVER_ADDR => ::1
+SERVER_NAME => localhost
+SERVER_SOFTWARE => Apache/2.4.6 (Win32) PHP/5.4.17
+SERVER_PROTOCOL => HTTP/1.1
+REQUEST_METHOD => POST
+REQUEST_TIME => 1471213452
+REQUEST_TIME_FLOAT => 1471213452.561
+QUERY_STRING => 
+DOCUMENT_ROOT => C:/Users/lapto_admin/Desktop/USBWebserver v8.6/root
+HTTP_ACCEPT => text/html, */*; q=0.01
+HTTP_ACCEPT_CHARSET
+HTTP_ACCEPT_ENCODING => gzip, deflate
+HTTP_ACCEPT_LANGUAGE => es,en;q=0.8
+HTTP_CONNECTION => keep-alive
+HTTP_HOST => localhost
+HTTP_REFERER => http://localhost/CRM/
+HTTP_USER_AGENT => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+HTTPS
+REMOTE_ADDR => ::1
+REMOTE_HOST
+REMOTE_PORT => 49169
+REMOTE_USER
+REDIRECT_REMOTE_USER
+SCRIPT_FILENAME => C:/Users/lapto_admin/Desktop/USBWebserver v8.6/root/CRM/modulos/login.php
+SERVER_ADMIN => mail@localhost
+SERVER_PORT => 80
+SERVER_SIGNATURE => 
+PATH_TRANSLATED
+SCRIPT_NAME => /CRM/modulos/login.php
+REQUEST_URI => /CRM/modulos/login.php
+PHP_AUTH_DIGEST
+PHP_AUTH_USER
+PHP_AUTH_PW
+AUTH_TYPE
+PATH_INFO
+ORIG_PATH_INFO
+
+Fecha Acceso:August 14, 2016, 5:54 pm
+Attempt: Success
+User: davimurillo@gmail.com
+-------------------------
+PHP_SELF => /CRM/modulos/login.php
+argv
+argc
+GATEWAY_INTERFACE => CGI/1.1
+SERVER_ADDR => ::1
+SERVER_NAME => localhost
+SERVER_SOFTWARE => Apache/2.4.6 (Win32) PHP/5.4.17
+SERVER_PROTOCOL => HTTP/1.1
+REQUEST_METHOD => POST
+REQUEST_TIME => 1471213452
+REQUEST_TIME_FLOAT => 1471213452.576
+QUERY_STRING => 
+DOCUMENT_ROOT => C:/Users/lapto_admin/Desktop/USBWebserver v8.6/root
+HTTP_ACCEPT => text/html, */*; q=0.01
+HTTP_ACCEPT_CHARSET
+HTTP_ACCEPT_ENCODING => gzip, deflate
+HTTP_ACCEPT_LANGUAGE => es,en;q=0.8
+HTTP_CONNECTION => keep-alive
+HTTP_HOST => localhost
+HTTP_REFERER => http://localhost/CRM/
+HTTP_USER_AGENT => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+HTTPS
+REMOTE_ADDR => ::1
+REMOTE_HOST
+REMOTE_PORT => 49170
+REMOTE_USER
+REDIRECT_REMOTE_USER
+SCRIPT_FILENAME => C:/Users/lapto_admin/Desktop/USBWebserver v8.6/root/CRM/modulos/login.php
+SERVER_ADMIN => mail@localhost
+SERVER_PORT => 80
+SERVER_SIGNATURE => 
+PATH_TRANSLATED
+SCRIPT_NAME => /CRM/modulos/login.php
+REQUEST_URI => /CRM/modulos/login.php
+PHP_AUTH_DIGEST
+PHP_AUTH_USER
+PHP_AUTH_PW
+AUTH_TYPE
+PATH_INFO
+ORIG_PATH_INFO
+
